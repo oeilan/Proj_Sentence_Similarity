@@ -29,3 +29,4 @@ Results:
 2. Glove embedding 50d  -> shared BiLSTM(256) -> dot                : 628,736 param : 0.65 p_corr, 0.2 mse
 3. Glove embedding 300d -> shared BiLSTM(128) -> dot                : 439,296 param : 0.67 p_corr, 0.17 mae
 4. Glove embedding 300d -> shared BiLSTM(128) -> BiLSTM(128) -> dot : 833,536 param : 0.66 p_corr, 0.18 mae
+5. Glove embedding 300d -> shared BiLSTM(256) -> dot                : 1,140,736 param : 0.70 p_corr, 0.17 mae
