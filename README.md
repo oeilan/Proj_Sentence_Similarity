@@ -34,8 +34,15 @@ Results:
     5. Glove embedding 300d -> shared BiLSTM(256) -> dot                : 1,140,736 param : 0.70 p_corr, 0.85 mae
     6. Glove embedding 300d -> shared BiLSTM(600) -> dot                : 4,324,800 param : 0.69 p_corr, 0.90 mae
 
-
-Comparing to results from Microsoft downloaded Sent2Vec model:
+				MS pre-trained		BiLSTM(256)
+				Sent2Vec for windows	max pearson
+pearson correlation		0.74			0.74
+mean error			0.09			0.32
+mean absolute error		0.79			0.83
 		
-
-![image.png](attachment:image.png)
+% prediction within [] points out of 5		
+0.5				37.66%			40.83%
+1				68.28%			66.50%
+1.5				87.30%			83.76%
+2				95.96%			92.82%
+2.5				99.02%			97.39%
