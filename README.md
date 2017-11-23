@@ -36,13 +36,13 @@ Results:
 
 				MS pre-trained		BiLSTM(256)
 				Sent2Vec for windows	max pearson
-pearson correlation		0.74			0.74
-mean error			0.09			0.32
-mean absolute error		0.79			0.83
-		
-% prediction within [] points out of 5		
-0.5				37.66%			40.83%
-1				68.28%			66.50%
-1.5				87.30%			83.76%
-2				95.96%			92.82%
-2.5				99.02%			97.39%
+	pearson correlation		0.74			0.74
+	mean error			0.09			0.32
+	mean absolute error		0.79			0.83
+
+	% prediction within [] points out of 5		
+	0.5				37.66%			40.83%
+	1				68.28%			66.50%
+	1.5				87.30%			83.76%
+	2				95.96%			92.82%
+	2.5				99.02%			97.39%
