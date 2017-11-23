@@ -1,4 +1,3 @@
-
 # Sentence similarity prediction model
 
 This model uses English-English sentence pairs with similarity score data from the Semantic Evaluation competition 2017.
@@ -36,9 +35,7 @@ Results:
     6. Glove embedding 300d -> shared BiLSTM(600) -> dot                : 4,324,800 param : 0.69 p_corr, 0.90 mae
 
 
-Results from Microsoft downloaded Sent2Vec model:
+Comparing to results from Microsoft downloaded Sent2Vec model:
+		
 
-    pc	0.736214094
-    me	0.092619883
-    mae	0.793664642
-    
+![image.png](attachment:image.png)
