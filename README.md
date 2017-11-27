@@ -20,7 +20,7 @@ Some observations:
 - Birectional LSTM appears to be more quicker (ie after less epochs) at reaching best results
 - Little increase in train time when glove vectors of 300 dimensions are used instead of 50, 30% more train time instead of 6x
 - 2 stacked LSTM did not better results of one LSTM
-- best pearson correlation obtained among all configurations of this simple model is 0.67,
+- best pearson correlation obtained among all configurations of this simple model is 0.74,
   substantially below competition best of 0.85, 
   which used significant text preprocessing to obtain more word/sentence features
   before feeding into an SVM regression model
